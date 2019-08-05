@@ -1,1 +1,16 @@
-
+.item{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.item .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 75%; /* Adjust this value to move the positioned div up and down */
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 60%; /* Set the width of the positioned div */
+}

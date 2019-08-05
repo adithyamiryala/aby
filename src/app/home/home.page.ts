@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,13 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  data: any;
+  constructor(private http: HttpClient) {
+    this.getConfig();
+  }
+
+  getConfig() {
+    this.data = this.http.get('https://jsonplaceholder.typicode.com/users');
+  }
 
 }

@@ -19,13 +19,16 @@ export class ListPage implements OnInit {
     'bluetooth',
     'build'
   ];
-  public items: Array<{ title: string; note: string; icon: string }> = [];
+  private asanas = [
+    'meditation',
+    'meditation'
+  ];
+  public items: Array<{ title: string; note: string;}> = [];
   constructor() {
-    for (let i = 1; i < 11; i++) {
+    for (let i = 0; i < this.asanas.length; i++) {
       this.items.push({
-        title: 'Item ' + i,
-        note: 'This is item #' + i,
-        icon: this.icons[Math.floor(Math.random() * this.icons.length)]
+        title: this.asanas[i],
+        note: this.asanas[i]
       });
     }
   }
