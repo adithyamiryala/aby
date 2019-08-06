@@ -1,5 +1,7 @@
 {
   "name": "aby",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
