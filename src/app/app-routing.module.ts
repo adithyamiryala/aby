@@ -18,7 +18,8 @@ const routes: Routes = [
   },
   { 
     path: 'asana-defination/:title', 
-    loadChildren: './asana-defination/asana-defination.module#AsanaDefinationPageModule' }
+    loadChildren: './asana-defination/asana-defination.module#AsanaDefinationPageModule' 
+  }
 ];
 
 @NgModule({

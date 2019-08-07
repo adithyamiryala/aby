@@ -4,25 +4,20 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      List
+      Asanas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let item of items">
+    <ion-item *ngFor="let asanaData of data">
       <div class="item">
-        <img src="/assets/{{item.note}}.jpg" alt="" [routerLink]="['../asana-defination', item.title]"/>
+        <img src="{{asanaData.image}}" width="250" height="100" alt="" (click)="sendInfoToService(asanaData)"/>
         <div class="text">
-          <h2>{{item.title}}</h2>
+          <h2>{{asanaData.title}}</h2>
         </div>
       </div>
     </ion-item>
   </ion-list>
-  <!--
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title }}</b>
-    </div>
-  -->
 </ion-content>

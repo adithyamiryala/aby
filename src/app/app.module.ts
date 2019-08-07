@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { HttpClientModule } from '@angular/common/http';
 import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player/ngx';
+import { AsanaService } from './list/list.service';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,6 +26,7 @@ import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player/ngx';
     StatusBar,
     SplashScreen,
     YoutubeVideoPlayer,
+    AsanaService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

@@ -14,7 +14,9 @@ export class HomePage {
   }
 
   getConfig() {
-    this.data = this.http.get('https://jsonplaceholder.typicode.com/users');
+    this.http.get('https://jsonplaceholder.typicode.com/users').subscribe((res) => {
+      this.data = res;
+    })
   }
 
 }

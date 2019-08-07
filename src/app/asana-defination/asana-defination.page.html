@@ -4,19 +4,30 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-        {{asanaDefination?.asanaTitle}}
+        {{asanaDefination?.title}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
     <ion-item>
-      <div>
-        <p name="asanaTitle">{{asanaDefination?.asanaTitle}}</p> <br/>
+      <div class="youtube-image">
+        <img src="{{asanaDefination?.image}}" (click)="openAsanaVideo(asanaDefination?.videoId)"/>
+      </div>
+      <div class="asana">
+        <h1 name="asanaTitle">{{asanaDefination?.title}}</h1> <br/>
         <p name="definititon">{{asanaDefination?.definition}}</p> <br/>
-        <p name="advantages">{{asanaDefination?.advantages}}</p> <br/>
 
-        <ion-button size="small" (click)="openMyVideo()">Open Video Player</ion-button>
+        <h2>Procedure</h2> <br/>
+        <p name="procedure">{{asanaDefination?.procedure}}</p> <br/>
+
+        <h2>Limitations</h2>
+        <p>This posture is not recommended for the people with</p>
+        <p name="limitations">{{asanaDefination?.limitations}}</p> <br/>
+
+        <h2>Benefits</h2>
+        <p>The regular practice of {{asanaDefination?.title}} is known to bring following wonderful benefits.</p>
+        <p name="benefits">{{asanaDefination?.benefits}}</p> <br/>
       </div>
     </ion-item>
 </ion-content>
