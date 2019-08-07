@@ -17,24 +17,10 @@ export class ListPage implements OnInit {
     benefits: Array<string>, limitations: Array<string>, 
     image: string, videoId: string}>;
 
-  private asanas = [
-    'uttanapadasan',
-    'meditation',
-  ];
-  private images = [
-    'http://4.bp.blogspot.com/-PKDm2cPUAug/U8ubRAdmdAI/AAAAAAAAAJs/xCoaRhWvqnw/s1600/Uttanapadasana+(The+Raised+Leg+Pose).png',
-    'http://4.bp.blogspot.com/-PKDm2cPUAug/U8ubRAdmdAI/AAAAAAAAAJs/xCoaRhWvqnw/s1600/Uttanapadasana+(The+Raised+Leg+Pose).png',
-  ];
-  public items: Array<{ title: string; asanaImg: string;}> = [];
   constructor(private http: HttpClient,
-    private asanaService: AsanaService, private router: Router) {
-    for (let i = 0; i < this.asanas.length; i++) {
-      this.items.push({
-        title: this.asanas[i],
-        asanaImg: this.images[i]
-      });
-    }
-    this.getProducts();
+    private asanaService: AsanaService, 
+    private router: Router) {
+      this.getProducts();
   }
 
   ngOnInit() {
@@ -47,7 +33,7 @@ export class ListPage implements OnInit {
     })
   }
 
-  sendInfoToService(asanaData) {
+  sendInfoToAsanaService(asanaData) {
     this.asanaService.setAsanaInformation(asanaData);
     this.router.navigate(['asana-defination', asanaData.title]); 
   }
