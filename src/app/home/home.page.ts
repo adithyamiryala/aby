@@ -10,13 +10,7 @@ export class HomePage {
 
   data: any;
   constructor(private http: HttpClient) {
-    this.getConfig();
-  }
-
-  getConfig() {
-    this.http.get('https://jsonplaceholder.typicode.com/users').subscribe((res) => {
-      this.data = res;
-    })
+    
   }
 
 }

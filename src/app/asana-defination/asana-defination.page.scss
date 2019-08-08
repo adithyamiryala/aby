@@ -1,0 +1,13 @@
+.video-thumbnail {
+    position: relative;
+    display: inline-block;
+  }
+  .video-thumbnail img {
+    width: 250px;
+    height: 100px;
+  }
+  .video-thumbnail i {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 5px);
+  }

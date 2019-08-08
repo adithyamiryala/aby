@@ -9,8 +9,43 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <ion-item>
+<ion-content fullscreen>
+    <ion-card>
+        <img src="{{asanaDefination?.image}}" (click)="openAsanaVideo(asanaDefination?.videoId)"/>
+        <ion-card-header>
+          <ion-card-title>Procedure</ion-card-title>
+        </ion-card-header>
+        <ion-list>
+          <ul  *ngFor="let procedure of asanaDefination?.procedure">
+            <li>{{procedure}}</li>
+          </ul>
+        </ion-list>
+
+        <ion-card-header>
+          <ion-card-title>Limitations</ion-card-title>
+          <p>
+              This posture is not recommended for the people with:
+          </p>
+        </ion-card-header>
+        <ion-list>
+          <ul  *ngFor="let limitations of asanaDefination?.limitations">
+            <li>{{limitations}}</li>
+          </ul>
+        </ion-list>
+
+        <ion-card-header>
+          <ion-card-title>Benefits</ion-card-title>
+          <p>
+              The regular practice of <b>{{asanaDefination?.title}}</b> is known to bring following wonderful benefits:
+          </p>
+        </ion-card-header>
+        <ion-list>
+          <ul  *ngFor="let benefits of asanaDefination?.benefits">
+            <li>{{benefits}}</li>
+          </ul>
+        </ion-list>
+    </ion-card>
+    <!-- <ion-item>
       <div class="youtube-image">
         <img src="{{asanaDefination?.image}}" (click)="openAsanaVideo(asanaDefination?.videoId)"/>
         <p name="definititon">{{asanaDefination?.definition}}</p>
@@ -30,5 +65,5 @@
             <li>{{benefits}}</li>
         </ul>
       </div>
-    </ion-item>
+    </ion-item> -->
 </ion-content>

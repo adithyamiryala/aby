@@ -20,6 +20,21 @@ export class AppComponent {
       title: 'Asanas',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Pranayamam',
+      url: '/pranayamam',
+      icon: 'pranayamam'
+    },
+    {
+      title: 'Meditation',
+      url: '/meditation',
+      icon: 'meditation'
+    },
+    {
+      title: 'Surya Namaskar',
+      url: '/surya-namaskar',
+      icon: 'surya-namaskar'
     }
   ];
 

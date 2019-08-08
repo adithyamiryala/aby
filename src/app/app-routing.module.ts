@@ -19,7 +19,12 @@ const routes: Routes = [
   { 
     path: 'asana-defination/:title', 
     loadChildren: './asana-defination/asana-defination.module#AsanaDefinationPageModule' 
-  }
+  },
+  { path: 'pranayamam', loadChildren: './pranayamam/pranayamam.module#PranayamamPageModule' },
+  { path: 'pranayamam-definition', loadChildren: './pranayamam-definition/pranayamam-definition.module#PranayamamDefinitionPageModule' },
+  { path: 'meditation', loadChildren: './meditation/meditation.module#MeditationPageModule' },
+  { path: 'meditation-definition', loadChildren: './meditation-definition/meditation-definition.module#MeditationDefinitionPageModule' },
+  { path: 'surya-namaskar', loadChildren: './surya-namaskar/surya-namaskar.module#SuryaNamaskarPageModule' }
 ];
 
 @NgModule({
