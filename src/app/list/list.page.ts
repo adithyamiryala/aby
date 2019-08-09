@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { AsanaService } from './list.service';
 import { Router } from '@angular/router';
@@ -7,8 +6,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-list',
   templateUrl: 'list.page.html',
-  styleUrls: ['list.page.scss'],
-  // providers: [AsanaService]
+  styleUrls: ['list.page.scss']
 })
 export class ListPage implements OnInit {
   private productURL = "./assets/json/yogaAsanas.json";

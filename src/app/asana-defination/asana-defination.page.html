@@ -11,7 +11,10 @@
 
 <ion-content fullscreen>
     <ion-card>
-        <img src="{{asanaDefination?.image}}" (click)="openAsanaVideo(asanaDefination?.videoId)"/>
+        <div class="video-thumbnail">
+          <img src="{{asanaDefination?.image}}" (click)="openAsanaVideo(asanaDefination?.videoId)"/>
+          <ion-icon name="play-circle"></ion-icon>
+        </div>
         <ion-card-header>
           <ion-card-title>Procedure</ion-card-title>
         </ion-card-header>
