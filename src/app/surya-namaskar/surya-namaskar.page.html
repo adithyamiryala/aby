@@ -3,12 +3,56 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title>
-        Surya Namaskar
-      </ion-title>
+      <h6>
+        <b>
+          <span style="padding-left:3em">{{data?.title}}</span>
+        </b>
+      </h6>
     </ion-toolbar>
   </ion-header>
 
 <ion-content>
+  <ion-card>
+    <div class="video-thumbnail">
+      <img src="{{data?.videoImage}}" (click)="openSuryaNamaskarVideo(data?.videoId)"/>
+      <ion-icon name="play-circle"></ion-icon>
+    </div>
+    <ion-card-header>
+      <ion-card-title>
+        Procedure
+      </ion-card-title>
+      <p>
+        {{data?.procedure}}
+      </p>
+    </ion-card-header>
 
+    <ion-card-header>
+      <ion-card-title>
+        Mantras
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content  *ngFor="let mantra of data?.mantras; index as i">
+      <h2><b style="color: black;">{{i+1}}. {{mantra?.name}}</b>&nbsp;&nbsp;-&nbsp;{{mantra?.caption}}</h2>
+      <p></p><br/>
+      <img src="{{mantra.image}}"/>
+    </ion-card-content>
+
+    <ion-card-header>
+      <ion-card-title>Limitations</ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ul  *ngFor="let limitations of data?.limitations">
+        <li>{{limitations}}</li>
+      </ul>
+    </ion-list>
+
+    <ion-card-header>
+      <ion-card-title>Benefits</ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ul  *ngFor="let benefits of data?.benefits">
+        <li>{{benefits}}</li>
+      </ul>
+    </ion-list>
+  </ion-card>
 </ion-content>

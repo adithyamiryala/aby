@@ -1,73 +1,90 @@
-[
-	{
-		"title" : "Surya Namaskar",
-		"procedure" : "Surya Namaskar is one of the most important yoga practices. It is the set of 12 yoga poses which can be performed while chanting 12 different mantras. Mantras add a profound spiritual element to the practice. Surya Namaskar is sometimes translated as 'eternal salutations to the sun'. In Sanskrit, surya means 'sun' and namaskar means 'salutations'. The practice of Surya Namaskar awakens the body intelligence to create energy directly from the sun. In the Vedic tradition, the sun is symbolic of consciousness and, therefore, has been worshiped daily in the Indian culture.",
-		"mantras" : [
-			"Om Mitraya Namah",
-			"Om Ravaye Namah",
-			"Om Suryaya Namah",
-			"Om Bhanave Namah",
-			"Om Khagaya Namah",
-			"Om Poosne Namah",
-			"Om Hiranyagarbhaya Namah",
-			"Om Marichaya Namah",
-			"Om Savitre Namah",
-			"Om Adityaya Namah",
-			"Om Arkaya Namah",
-			"Om Bhaskaraya Namah"
-		],
-		"mantraCaption" : [
-			"A reliable friend to all",
-			"The shining and knowledgeable one",
-			"Guide to all and keeps us active",
-			"Illuminates and bestows beauty",
-			"Stimulator of senses who moves quickly in the sky",
-			"Giver of strength who nourishes all",
-			"Creator with the golden womb, the cosmic self",
-			"Lord of dawn and destroyer of diseases",
-			"Son of cosmic mother Aditi who inspires",
-			"Lord of creation, the one who purifies",
-			"Worthy of all praises and the radiant",
-			"Illuminates and leads us to enlightenment"
-		],
-		"images" : [
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-1-The-Pranamasana-Or-The-Prayer-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-2-Hasta-Uttanasana-Or-The-Raised-Arms-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-3-Pada-Hastasana-Or-Hand-To-Foot-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-4-Ashwa-Sanchalanasana-Or-The-Equestrian-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-5-Parvatasana-Or-Mountain-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-6-Ashtanga-Namaskara-Or-The-Salute-With-Eight-Parts.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-7-Bhujangasana-Or-The-Cobra-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-8-Parvatasana-Or-The-Mountain-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-9-Ashwa-Sanchalanasana-Or-The-Equestrian-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-10-Pada-Hastasana-Or-Hand-To-Foot-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-11-Hasta-Uttanasana-Or-The-Raised-Arms-Pose.jpg",
-			"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-12-The-Pranamasana-Or-The-Prayer-Pose.jpg"
-		],
-		"benefits" : [
-			"One of the primary Surya Namaskar benefits is that it strengthens the entire body",
-			"Relieves constipation and promotes healthy digestion",
-			"Stimulates the nervous system including the brain, lower plexus, spinal cord, etc. Surya Namaskar Yoga strongly aids in preventing memory loss, builds focus and concentration, improves the functioning of the brain. Activates Brain cells in the body.",
-			"It is a well known remedy to cure blood pressure and strengthens heart muscles. It also cures irregular heart beat",
-			"Improves the capacity of the lungs, stimulates oxygen supply and regulates it to all the vital organs in the body",
-			"Highly beneficial for improving blood circulation. Provides beautiful glow to the skin.",
-			"Promotes weight loss and activates basal metabolic rate of a person’s body.",
-			"Is a famous remedy for managing menstrual cramps and, also helpful in managing menopause stage. Due to its empowering effects on the uterus of a woman, Surya Namaskar Yoga also helps in making child birth comparatively easier.",
-			"Improves sexual functions of the body. Eradicates any internal flaws related to malfunctioning of sexual glands. Also, promotes healthy sexual appetite in a person.",
-			"Reduces strained joints problems. Lubricates sore muscles and joints and promotes their healthy functioning. Highly beneficial in managing arthritis, sciatica, other joint related ailments etc.",
-			"Improves mental and physical balance of the person’s body. Develops patience and builds stamina by increasing the mental capacity of the brain and the body.",
-			"Improves flexibility of the body and releases stiffness."
-		],
-		"limitations" : [
-			"Since this is an involved yoga sequence, care should be taken if one has general body weakness or muscle and bone weakness.",
-			"the spine expands and contracts putting pressure on the lower back and hip. Hence someone with a very bad back or injured back should certainly avoid this even if one has practiced this for years.",
-			"Not advisable to be done by pregnant women as this puts pressure on the back and the abdominal area.",
-			"People suffering with high blood pressure should avoid this sequence. But with proper guidance from a yoga teacher and for someone not elderly can begin this yoga pose slowly and carefully.",
-			"Someone with heard problem is advised to consult a physician before practicing Surya Namaskar. Remember that the age factor does play a big role for someone with heart conditions.",
-			"Knee strength plays an important role with the various postures in Surya Namaskar. So someone who has severe arthritis leading to knee stiffness, should take it slow or avoid this sequence.",
-			"Injury at the wrist will make the sequence difficult as pressure on the wrists in poses like Cobra Pose, Adho Mukha Svanasana and going down to Eight Limb Pose would cause more stress and injury to the wrists."
-		],
-		"videoImage": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-12-The-Pranamasana-Or-The-Prayer-Pose.jpg",
-		"videoId" : "2zFOa_N-9Ow"
-	}
-]
+{
+	"title" : "Surya Namaskar",
+	"procedure" : "Surya Namaskar is one of the most important yoga practices. It is the set of 12 yoga poses which can be performed while chanting 12 different mantras. Mantras add a profound spiritual element to the practice. Surya Namaskar is sometimes translated as 'eternal salutations to the sun'. In Sanskrit, surya means 'sun' and namaskar means 'salutations'. The practice of Surya Namaskar awakens the body intelligence to create energy directly from the sun. In the Vedic tradition, the sun is symbolic of consciousness and, therefore, has been worshiped daily in the Indian culture.",
+	"mantras" : [ 
+		{
+			"name": "Om Mitraya Namah", 
+			"caption": "A reliable friend to all", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-1-The-Pranamasana-Or-The-Prayer-Pose.jpg"
+		},
+		{
+			"name": "Om Ravaye Namah", 
+			"caption": "The shining and knowledgeable one", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-2-Hasta-Uttanasana-Or-The-Raised-Arms-Pose.jpg"
+		},
+		{
+			"name": "Om Suryaya Namah", 
+			"caption": "Guide to all and keeps us active", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-3-Pada-Hastasana-Or-Hand-To-Foot-Pose.jpg"
+		},
+		{
+			"name": "Om Bhanave Namah", 
+			"caption": "Illuminates and bestows beauty", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-4-Ashwa-Sanchalanasana-Or-The-Equestrian-Pose.jpg"
+		},
+		{
+			"name": "Om Khagaya Namah", 
+			"caption": "Stimulator of senses who moves quickly in the sky", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-5-Parvatasana-Or-Mountain-Pose.jpg"
+		},
+		{
+			"name": "Om Poosne Namah", 
+			"caption": "Giver of strength who nourishes all", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-6-Ashtanga-Namaskara-Or-The-Salute-With-Eight-Parts.jpg"
+		},
+		{
+			"name": "Om Hiranyagarbhaya Namah", 
+			"caption": "Creator with the golden womb, the cosmic self", 
+			"image":"https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-7-Bhujangasana-Or-The-Cobra-Pose.jpg"
+		},
+		{
+			"name": "Om Marichaya Namah", 
+			"caption": "Lord of dawn and destroyer of diseases", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-8-Parvatasana-Or-The-Mountain-Pose.jpg"
+		},
+		{
+			"name": "Om Savitre Namah", 
+			"caption": "Son of cosmic mother Aditi who inspires", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-9-Ashwa-Sanchalanasana-Or-The-Equestrian-Pose.jpg"
+		},
+		{
+			"name": "Om Adityaya Namah", 
+			"caption": "Lord of creation, the one who purifies", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-10-Pada-Hastasana-Or-Hand-To-Foot-Pose.jpg"
+		},{
+			"name": "Om Arkaya Namah", 
+			"caption": "Worthy of all praises and the radiant", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-11-Hasta-Uttanasana-Or-The-Raised-Arms-Pose.jpg"
+		},
+		{
+			"name": "Om Bhaskaraya Namah", 
+			"caption": "Illuminates and leads us to enlightenment", 
+			"image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Step-12-The-Pranamasana-Or-The-Prayer-Pose.jpg"
+		}
+	],
+	"benefits" : [
+		"One of the primary Surya Namaskar benefits is that it strengthens the entire body",
+		"Relieves constipation and promotes healthy digestion",
+		"Stimulates the nervous system including the brain, lower plexus, spinal cord, etc. Surya Namaskar Yoga strongly aids in preventing memory loss, builds focus and concentration, improves the functioning of the brain. Activates Brain cells in the body.",
+		"It is a well known remedy to cure blood pressure and strengthens heart muscles. It also cures irregular heart beat",
+		"Improves the capacity of the lungs, stimulates oxygen supply and regulates it to all the vital organs in the body",
+		"Highly beneficial for improving blood circulation. Provides beautiful glow to the skin.",
+		"Promotes weight loss and activates basal metabolic rate of a person’s body.",
+		"Is a famous remedy for managing menstrual cramps and, also helpful in managing menopause stage. Due to its empowering effects on the uterus of a woman, Surya Namaskar Yoga also helps in making child birth comparatively easier.",
+		"Improves sexual functions of the body. Eradicates any internal flaws related to malfunctioning of sexual glands. Also, promotes healthy sexual appetite in a person.",
+		"Reduces strained joints problems. Lubricates sore muscles and joints and promotes their healthy functioning. Highly beneficial in managing arthritis, sciatica, other joint related ailments etc.",
+		"Improves mental and physical balance of the person’s body. Develops patience and builds stamina by increasing the mental capacity of the brain and the body.",
+		"Improves flexibility of the body and releases stiffness."
+	],
+	"limitations" : [
+		"Since this is an involved yoga sequence, care should be taken if one has general body weakness or muscle and bone weakness.",
+		"the spine expands and contracts putting pressure on the lower back and hip. Hence someone with a very bad back or injured back should certainly avoid this even if one has practiced this for years.",
+		"Not advisable to be done by pregnant women as this puts pressure on the back and the abdominal area.",
+		"People suffering with high blood pressure should avoid this sequence. But with proper guidance from a yoga teacher and for someone not elderly can begin this yoga pose slowly and carefully.",
+		"Someone with heard problem is advised to consult a physician before practicing Surya Namaskar. Remember that the age factor does play a big role for someone with heart conditions.",
+		"Knee strength plays an important role with the various postures in Surya Namaskar. So someone who has severe arthritis leading to knee stiffness, should take it slow or avoid this sequence.",
+		"Injury at the wrist will make the sequence difficult as pressure on the wrists in poses like Cobra Pose, Adho Mukha Svanasana and going down to Eight Limb Pose would cause more stress and injury to the wrists."
+	],
+	"videoImage": "http://4.bp.blogspot.com/-PKDm2cPUAug/U8ubRAdmdAI/AAAAAAAAAJs/xCoaRhWvqnw/s1600/Uttanapadasana+(The+Raised+Leg+Pose).png",
+	"videoId" : "2zFOa_N-9Ow"
+}

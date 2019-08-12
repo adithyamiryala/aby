@@ -3,12 +3,47 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title>
-        Pranayamam Definition
-      </ion-title>
+      <h6>
+        <b>
+          <span style="padding-left:1em">{{data?.title}}</span>
+        </b>
+      </h6>
     </ion-toolbar>
   </ion-header>
 
 <ion-content>
+  <ion-card>
+    <div class="video-thumbnail">
+      <img src="{{data?.image}}" (click)="openPranayamaVideo(data?.videoId)"/>
+      <ion-icon name="play-circle"></ion-icon>
+    </div>
 
+    <ion-card-header>
+      <ion-card-title>Procedure</ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ul  *ngFor="let procedure of data?.procedure">
+        <li>{{procedure}}</li>
+      </ul>
+    </ion-list>
+
+    <ion-card-header>
+      <ion-card-title>Precautions</ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ul  *ngFor="let precautions of data?.precautions">
+        <li>{{precautions}}</li>
+      </ul>
+    </ion-list>
+
+    <ion-card-header>
+        <ion-card-title>Benefits</ion-card-title>
+      </ion-card-header>
+      <ion-list>
+        <ul  *ngFor="let benefits of data?.benefits">
+          <li>{{benefits}}</li>
+        </ul>
+      </ion-list>
+
+  </ion-card>
 </ion-content>

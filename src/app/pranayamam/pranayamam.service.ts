@@ -1,17 +1,17 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class AsanaService {
+export class PranayamamService {
     public data: any;
 
     constructor() {
     }
 
-    setAsanaInformation(data) {
+    setPranayamaInformation(data) {
         this.data = data;
     }
 
-    getAsanaInformation() {
+    getPranayamaInformation() {
         return this.data;
     }
 }

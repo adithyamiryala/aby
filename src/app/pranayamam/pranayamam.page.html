@@ -4,11 +4,16 @@
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
       <ion-title>
-        Pranayamam
+        Pranayama
       </ion-title>
     </ion-toolbar>
   </ion-header>
 
 <ion-content>
-
+  <ion-card>
+    <ion-card-content *ngFor="let pranayama of data">
+      <h2>{{pranayama.title}}</h2>
+      <img src="{{pranayama.image}}" width="250" height="100" alt="" (click)="sendInfoToPranayamaService(pranayama)"/>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

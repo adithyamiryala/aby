@@ -10,9 +10,11 @@
 </ion-header>
 
 <ion-content fullscreen>
-  <ion-card *ngFor="let asanaData of data">
-    <h2>{{asanaData.title}}</h2>
-    <img src="{{asanaData.image}}" width="250" height="100" alt="" (click)="sendInfoToAsanaService(asanaData)"/>
+  <ion-card>
+    <ion-card-content *ngFor="let asanaData of data">
+      <h2>{{asanaData.title}}</h2>
+      <img src="{{asanaData.image}}" width="250" height="100" alt="" (click)="sendInfoToAsanaService(asanaData)"/>
+    </ion-card-content>
   </ion-card>
   <!-- <ion-list>
     <ion-item *ngFor="let asanaData of data">

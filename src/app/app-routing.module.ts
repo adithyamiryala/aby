@@ -24,7 +24,8 @@ const routes: Routes = [
   { path: 'pranayamam-definition', loadChildren: './pranayamam-definition/pranayamam-definition.module#PranayamamDefinitionPageModule' },
   { path: 'meditation', loadChildren: './meditation/meditation.module#MeditationPageModule' },
   { path: 'meditation-definition', loadChildren: './meditation-definition/meditation-definition.module#MeditationDefinitionPageModule' },
-  { path: 'surya-namaskar', loadChildren: './surya-namaskar/surya-namaskar.module#SuryaNamaskarPageModule' }
+  { path: 'surya-namaskar', loadChildren: './surya-namaskar/surya-namaskar.module#SuryaNamaskarPageModule' },  { path: 'about-us', loadChildren: './about-us/about-us.module#AboutUsPageModule' }
+
 ];
 
 @NgModule({

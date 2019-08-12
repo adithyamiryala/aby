@@ -17,9 +17,9 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Asanas',
-      url: '/list',
-      icon: 'list'
+      title: 'Surya Namaskar',
+      url: '/surya-namaskar',
+      icon: 'surya-namaskar'
     },
     {
       title: 'Pranayamam',
@@ -27,14 +27,19 @@ export class AppComponent {
       icon: 'pranayamam'
     },
     {
+      title: 'Asanas',
+      url: '/list',
+      icon: 'list'
+    },
+    {
       title: 'Meditation',
       url: '/meditation',
       icon: 'meditation'
     },
     {
-      title: 'Surya Namaskar',
-      url: '/surya-namaskar',
-      icon: 'surya-namaskar'
+      title: 'About Guruji',
+      url: '/about-us',
+      icon: 'about-us'
     }
   ];
 

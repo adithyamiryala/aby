@@ -1,0 +1,56 @@
+{
+	"description": [
+		"Meditation may be an ancient tradition, but it’s still practiced in cultures all over the world to create a sense of calm and inner harmony. ",
+		"Although the practice has ties to many different religious teachings, meditation is less about faith and more about altering consciousness, finding awareness, and achieving peace.",
+		"These days, with the greater need to reduce stress in the midst of our busy schedules and demanding lives, meditation is increasing in popularity.",
+		"Although there isn’t a right or wrong way to meditate, it’s important to find a practice that meets your needs and complements your personality."
+	],
+	"definition": [
+		"Meditation has been practiced in cultures all over the world for thousands of years",
+		"Nearly every religion, including Buddhism, Hinduism, Christianity, Judaism, and Islam, has a tradition of using meditative practices",
+		"While meditation is often used for religious purposes, many people practice it independently of any religious or spiritual practices",
+		"Meditation can also be used as a psychotherapeutic technique"
+	],
+	"types": [
+		{
+			"title": "Mindfulness Meditation",
+			"notes": "Mindfulness meditation is a mental training practice that involves focusing your mind on your experiences in the present moment. <br/> By choosing to turn your attention away from the everyday chatter of the mind and on to what your body is doing, you give the mind just enough to focus so that it can quiet down.",
+			"procedure": [
+				"Find a quiet and comfortable place. Sit in a chair or on the floor with your head, neck, and back straight but not stiff.",
+				"Try to put aside all thoughts of the past and the future and stay in the present.",
+				"Become aware of your breath, focusing on the sensation of air moving in and out of your body as you breathe. Feel your belly rise and fall, and the air enter your nostrils and leave your mouth. Pay attention to the way each breath changes and is different.",
+				"Watch every thought come and go, whether it be a worry, fear, anxiety or hope. When thoughts come up in your mind, don't ignore or suppress them but simply note them, remain calm and use your breathing as an anchor.",
+				"If you find yourself getting carried away in your thoughts, observe where your mind went off to, without judging, and simply return to your breathing. Remember not to be hard on yourself if this happens.",
+				"As the time comes to a close, sit for a minute or two, becoming aware of where you are. Get up gradually."
+			]
+		},
+		{
+			"title": "Focused Meditation",
+			"notes": "Focused meditation involves focusing on something intently as a way of staying in the present moment and turning off your internal dialogue. Many people find this type of meditation easier to practice than classic meditation where you focus on nothing to quiet your mind. <br/>With focused meditation, you still remain in the present moment, but immerse yourself in one thing--whatever that thing may be.",
+			"procedure": [
+				"<b>Choose a target for your focus.</b> The sound of a metronome, the smell of incense, or a pleasing picture are all popular choices.",
+				"<b>Get into a comfortable position.</b> Relax your body. Loosen your shoulders and breathe from your belly. You can cross your legs but you don't have to if you're more comfortable in another position, just as long as you can fully relax without falling asleep.",
+				"<b>Turn your attention to your chosen target and take in the sensation it provides.</b> Focus on the sound, smell, sight, etc. and simply experience what it has to offer. The idea is not to think about it, but simply to experience it, being fully present in the moment.",
+				"<b>Calm your inner voice.</b> If your internal voice starts to analyze your target or begins to rehash stressful situations of the day, worry about the future, make a list for grocery shopping, or anything else, gently turn your attention back to your chosen target and the sensation it provides. Let your mind stay quiet and clear.",
+				"<b>Don't worry about failure.</b> If you find your mind engaging you and realize that you’re not being fully present with the sensations of your chosen target, don’t let your inner perfectionist beat you up for doing it wrong. Simply congratulate yourself for noticing and return back to the present moment and the sensations it has to offer.",
+				"It may sound a little strange or difficult to understand as you’re reading this, but as you practice this type of meditation, it will become easier and make more sense."
+			]
+		}
+	],
+	"benefits": [
+		"Your heart rate and breathing slow down",
+		"Your blood pressure normalizes",
+		"You use oxygen more efficiently",
+		"Your immune function improves",
+		"You sweat less",
+		"Your adrenal glands produce less cortisol",
+		"Your mind ages at a slower rate",
+		"Your mind clears and your creativity increases"
+	],
+	"impThings": [
+		"Consistent practice matters more than long practice",
+		"Regular practice matters more than 'perfect' practice.",
+		"If you notice your mind wandering, that's good",
+		"Even long-time meditation practitioners find it challenging"
+	]
+}

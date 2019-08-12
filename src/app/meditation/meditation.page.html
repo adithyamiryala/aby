@@ -10,5 +10,49 @@
   </ion-header>
 
 <ion-content>
+  <ion-card>
+    <div>
+      <ul *ngFor="let description of data?.description" style="list-style-type:none; padding-right:1em">
+        <li>{{description}}</li>
+      </ul>
+    </div>
+    <ion-card-header>
+      <h2>
+        <b>
+          What exactly is Meditation?
+        </b>
+      </h2>
+    </ion-card-header>
+    <div>
+      <ul *ngFor="let define of data?.definition">
+        <li>{{define}}</li>
+      </ul>
+    </div>
 
+    <ion-card-header>
+      <h2>
+        <b>
+          Things to keep in mind while doing Meditation?
+        </b>
+      </h2>
+    </ion-card-header>
+    <div>
+      <ul *ngFor="let imp of data?.impThings">
+        <li>{{imp}}</li>
+      </ul>
+    </div>
+
+    <ion-card-header>
+      <h2>
+        <b>
+          Benefits of doing Meditation?
+        </b>
+      </h2>
+    </ion-card-header>
+    <div>
+      <ul *ngFor="let benefits of data?.benefits">
+        <li>{{benefits}}</li>
+      </ul>
+    </div>
+  </ion-card>
 </ion-content>

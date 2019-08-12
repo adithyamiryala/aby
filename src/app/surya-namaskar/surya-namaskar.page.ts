@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player/ngx';
 
 @Component({
   selector: 'app-surya-namaskar',
@@ -11,11 +12,9 @@ export class SuryaNamaskarPage implements OnInit {
 
   private suryaNamaskarJSONURL = "./assets/json/yoga-surya-namaskar.json";
   public data: any;
-  // public suryaNamaskarData: Array<{title: string, procedure: string, mantras: Array<string>,
-  //  mantraCaption: Array<string>, images: Array<String>,
-  //  benefits: Array<string>, limitations: Array<string>, videoImage: string, videoId: string}>;
 
   constructor(private http: HttpClient,
+    private youtube: YoutubeVideoPlayer,
     private router: Router) {
       this.getSuryaNamaskarData();
   }
@@ -26,8 +25,10 @@ export class SuryaNamaskarPage implements OnInit {
   getSuryaNamaskarData() {
     this.http.get(this.suryaNamaskarJSONURL).subscribe((res) => {
       this.data = res;
-      // this.suryaNamaskarData= this.data;
     })
   }
 
+  openSuryaNamaskarVideo(videoId){
+    this.youtube.openVideo(videoId);
+  }
 }

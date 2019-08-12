@@ -1,0 +1,14 @@
+.video-thumbnail {
+    position: relative;
+  }
+  .video-thumbnail img {
+    width: 250px;
+    height: 100px;
+  }
+  .video-thumbnail ion-icon {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    color: black;
+    font-size: 30px;
+  }

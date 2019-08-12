@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      About Guruji
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <h5 *ngFor="let description of data?.description">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{description}}
+      </h5><br/>
+
+      <h2>Please contact guruji with your queries in the below medium</h2><br/>
+
+      <ion-item>
+        <h3><b>E-Mail : </b> {{data?.email}}</h3>
+      </ion-item>
+      <ion-item>
+        <h3><b>Mobile Number : </b><br/> {{data?.mobile}}</h3>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

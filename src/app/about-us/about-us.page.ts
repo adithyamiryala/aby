@@ -4,32 +4,28 @@ import { HttpClient } from '@angular/common/http';
 import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player/ngx';
 
 @Component({
-  selector: 'app-meditation',
-  templateUrl: './meditation.page.html',
-  styleUrls: ['./meditation.page.scss'],
+  selector: 'app-about-us',
+  templateUrl: './about-us.page.html',
+  styleUrls: ['./about-us.page.scss'],
 })
-export class MeditationPage implements OnInit {
+export class AboutUsPage implements OnInit {
 
-  private meditationJsonURL = "./assets/json/yoga-meditation.json";
+  private aboutUsJsonURL = "./assets/json/yoga-about-us.json";
   public data: any;
 
   constructor(private http: HttpClient,
     private youtube: YoutubeVideoPlayer,
     private router: Router) {
-      this.getMeditationData();
+      this.getAboutUsData();
   }
 
   ngOnInit() {
   }
   
-  getMeditationData() {
-    this.http.get(this.meditationJsonURL).subscribe((res) => {
+  getAboutUsData() {
+    this.http.get(this.aboutUsJsonURL).subscribe((res) => {
       this.data = res;
     })
-  }
-
-  openMeditationVideo(videoId){
-    this.youtube.openVideo(videoId);
   }
 
 }
